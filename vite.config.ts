@@ -7,7 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-   build: {
-        outDir: 'docs', // This will change the output directory to 'docs'
-    }
+  base:"sf-events.belavadi.com",
+  build: {
+      outDir: 'docs', // This will change the output directory to 'docs'
+  }
 });
